@@ -1,0 +1,122 @@
+.transaction-list {
+  display: block;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.transaction-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 1% 10%;
+
+
+  .transaction-card__user {
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    img {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      margin: 0;
+      font-weight: bold;
+      font-size: 16px;
+    }
+  }
+
+  .transaction-card__name_date {  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+  }
+
+  .transaction-card__date {
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .transaction-card__money {
+    font-size: 24px;
+    font-weight: bold;
+    color: #008080;
+    text-align: center;
+  }
+
+}
+
+.transaction-list {
+  justify-content: center;
+}
+
+.transaction_heading {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: start;
+  margin-left: 137px;
+}
+
+.transaction-card {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  width: 80%;
+  padding: 1% 10%;
+
+
+  .transaction-card__user {
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    img {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      margin: 0;
+      font-weight: bold;
+      font-size: 16px;
+      width: 10%;
+    }
+  }
+
+  .date {
+    display: flex;
+    color: grey;
+  }
+
+
+  .transaction-card__date {
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .transaction-card__money {
+    font-size: 24px;
+    font-weight: bold;
+    color: #008080;
+    text-align: center;
+  }
+
+}
